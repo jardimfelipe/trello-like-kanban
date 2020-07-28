@@ -1,0 +1,25 @@
+:root {
+  --app-background: #ffffff;
+  --app-primary: #264653;
+  --app-primary-darkest: #1d353f;
+  --app-secundary: #2a9d8f;
+  --app-accent: #e9c46a;
+  --app-danger: #f4a261;
+  --app-error: #e76f51;
+  --app-card: #adb5bd;
+}
+
+[theme="grey"] {
+  --app-background: #343a40;
+  --app-primary: #495057;
+  --app-primary-darkest: #383d42;
+  --app-secundary: #6c757d;
+}
+
+[theme="funny"] {
+  --app-background: #f1e7d0;
+}
+
+[theme="dark"] {
+  --app-background-color: #f1e7d0;
+}

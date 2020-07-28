@@ -1,0 +1,30 @@
+.board {
+  background-color: var(--app-primary);
+  height: 100%;
+  padding: 10px 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  &__list {
+    &--wrapper {
+      width: 280px;
+      height: 100%;
+      white-space: nowrap;
+      flex: 0 0 auto;
+      &:not(:last-child) {
+        margin-right: 0.5em;
+      }
+    }
+    &--container {
+      padding: 15px;
+      background-color: var(--app-card);
+    }
+    &--title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
