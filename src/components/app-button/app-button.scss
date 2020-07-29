@@ -1,0 +1,48 @@
+@mixin circularButton(
+  $bgColor,
+  $bgColorHover,
+  $iconColor,
+  $hoverIconColor,
+  $shadowColor
+) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 33px;
+  height: 33px;
+  padding: 0;
+  margin: 0 5px;
+  background-color: $bgColor;
+  border: none;
+  border-radius: 50%;
+  &:hover,
+  &:not(.inactive):not(.inactive):active {
+    background-color: $bgColorHover;
+    border-color: $bgColorHover;
+  }
+  &:hover {
+    &:not(.inactive):not(.inactive):active:focus {
+      background-color: $bgColorHover;
+      box-shadow: 0 0 0 0.2rem $shadowColor;
+    }
+  }
+  &:focus,
+  &:not(.inactive):not(.inactive):active:focus {
+    background-color: $bgColorHover;
+    box-shadow: 0 0 0 0.2rem $shadowColor;
+  }
+  &__icon path {
+    fill: $iconColor;
+  }
+  .svg-icon {
+    margin: auto !important;
+  }
+}
+
+.btn {
+  outline: none !important;
+  cursor: pointer;
+  &-edit {
+    @include circularButton(transparent, #343a40, #343a40, #000000, #6c757d);
+  }
+}

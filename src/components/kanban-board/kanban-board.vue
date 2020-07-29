@@ -1,5 +1,11 @@
 <script>
-export default {};
+import AppButton from '@/components/app-button/app-button.vue';
+
+export default {
+  components: {
+    AppButton,
+  },
+};
 </script>
 
 <template>
@@ -8,7 +14,681 @@ export default {};
       <div class="board__list--container">
         <div class="board__list--title">
           <h1>Title</h1>
-          <svgicon name="icn_edit" width="20" height="20" color="#000000" />
+          <AppButton class="btn-edit" icon="icn_edit" />
+        </div>
+        <div class="board__list--card-container">
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="board__list--wrapper">
+      <div class="board__list--container">
+        <div class="board__list--title">
+          <h1>Title</h1>
+          <AppButton class="btn-edit" icon="icn_edit" />
+        </div>
+        <div class="board__list--card-container">
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="board__list--wrapper">
+      <div class="board__list--container">
+        <div class="board__list--title">
+          <h1>Title</h1>
+          <AppButton class="btn-edit" icon="icn_edit" />
+        </div>
+        <div class="board__list--card-container">
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="board__list--wrapper">
+      <div class="board__list--container">
+        <div class="board__list--title">
+          <h1>Title</h1>
+          <AppButton class="btn-edit" icon="icn_edit" />
+        </div>
+        <div class="board__list--card-container">
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="board__list--wrapper">
+      <div class="board__list--container">
+        <div class="board__list--title">
+          <h1>Title</h1>
+          <AppButton class="btn-edit" icon="icn_edit" />
+        </div>
+        <div class="board__list--card-container">
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="board__list--wrapper">
+      <div class="board__list--container">
+        <div class="board__list--title">
+          <h1>Title</h1>
+          <AppButton class="btn-edit" icon="icn_edit" />
+        </div>
+        <div class="board__list--card-container">
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="board__list--wrapper">
+      <div class="board__list--container">
+        <div class="board__list--title">
+          <h1>Title</h1>
+          <AppButton class="btn-edit" icon="icn_edit" />
+        </div>
+        <div class="board__list--card-container">
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="board__list--wrapper">
+      <div class="board__list--container">
+        <div class="board__list--title">
+          <h1>Title</h1>
+          <AppButton class="btn-edit" icon="icn_edit" />
+        </div>
+        <div class="board__list--card-container">
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="board__list--wrapper">
+      <div class="board__list--container">
+        <div class="board__list--title">
+          <h1>Title</h1>
+          <AppButton class="btn-edit" icon="icn_edit" />
+        </div>
+        <div class="board__list--card-container">
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="board__list--wrapper">
+      <div class="board__list--container">
+        <div class="board__list--title">
+          <h1>Title</h1>
+          <AppButton class="btn-edit" icon="icn_edit" />
+        </div>
+        <div class="board__list--card-container">
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="board__list--wrapper">
+      <div class="board__list--container">
+        <div class="board__list--title">
+          <h1>Title</h1>
+          <AppButton class="btn-edit" icon="icn_edit" />
+        </div>
+        <div class="board__list--card-container">
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
+          <div class="board__list--card">
+            <span>Do stuff</span>
+            <AppButton class="btn-edit" icon="icn_edit" />
+          </div>
         </div>
       </div>
     </div>

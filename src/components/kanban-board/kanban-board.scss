@@ -1,6 +1,6 @@
 .board {
   background-color: var(--app-primary);
-  height: 100%;
+  height: calc(100% - 20px);
   padding: 10px 15px;
   margin-right: auto;
   margin-left: auto;
@@ -20,11 +20,40 @@
     &--container {
       padding: 15px;
       background-color: var(--app-card);
+      max-height: 100%;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
     }
     &--title {
       display: flex;
       justify-content: space-between;
       align-items: center;
+    }
+    &--card-container {
+      flex: 1 1 auto;
+      overflow-y: auto;
+      margin-top: 10px;
+    }
+    &--card {
+      background-color: var(--app-secundary);
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+      box-shadow: 0px 4px 5px 0px rgba(135, 135, 135, 1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      button {
+        visibility: hidden;
+      }
+      &:hover {
+        background-color: var(--app-secundary-darkest);
+        cursor: pointer;
+        button {
+          visibility: visible;
+        }
+      }
     }
   }
 }
