@@ -1,15 +1,23 @@
 <script>
+// components
 import MainLayout from '@/router/layouts/main.vue';
 import Board from '@/components/kanban-board/kanban-board.vue';
+
+// utils
+import { getSavedState } from '@/utils/localStorage';
 
 export default {
   components: {
     MainLayout,
     Board,
   },
+  created() {
+    this.getCurrentTheme();
+  },
   methods: {
-    changeColor() {
-      document.documentElement.setAttribute('theme', 'grey');
+    getCurrentTheme() {
+      const currentTheme = getSavedState('app.theme');
+      document.documentElement.setAttribute('theme', currentTheme || 'main-theme');
     },
   },
 };
@@ -20,9 +28,3 @@ export default {
     <Board />
   </MainLayout>
 </template>
-
-<style lang="scss" scoped>
-button {
-  background: var(--app-danger);
-}
-</style>

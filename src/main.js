@@ -6,6 +6,7 @@ import store from './store';
 import '@/components/svgs';
 
 Vue.config.productionTip = false;
+
 Vue.use(SvgIcon, {
   tagName: 'svgicon',
 });

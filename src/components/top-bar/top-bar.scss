@@ -5,4 +5,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  &__logo {
+    color: var(--app-bar-logo);
+    display: flex;
+    align-items: center;
+    user-select: none;
+    span {
+      margin-left: 0.5em;
+    }
+    &--themepicker {
+      position: absolute;
+      right: 15px;
+    }
+  }
 }

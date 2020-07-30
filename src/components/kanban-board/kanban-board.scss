@@ -20,23 +20,21 @@
     &--container {
       padding: 15px;
       background-color: var(--app-card);
-      max-height: 100%;
+      max-height: calc(100vh - 85px);
       display: flex;
       flex-direction: column;
       box-sizing: border-box;
+      border-radius: 5px;
     }
     &--title {
       display: flex;
       justify-content: space-between;
       align-items: center;
-    }
-    &--card-container {
-      flex: 1 1 auto;
-      overflow-y: auto;
-      margin-top: 10px;
+      color: var(--app-text);
     }
     &--card {
       background-color: var(--app-secundary);
+      color: var(--app-text);
       padding: 10px;
       margin-top: 10px;
       border-radius: 5px;
@@ -54,6 +52,24 @@
           visibility: visible;
         }
       }
+      &-container {
+        flex: 1 1 auto;
+        overflow-x: hidden;
+        overflow-y: auto;
+        margin-top: 10px;
+        padding-bottom: 10px;
+      }
     }
+    &--add-button {
+      margin-top: 15px;
+      text-align: center;
+    }
+  }
+}
+
+.ghost {
+  visibility: hidden;
+  button {
+    display: none;
   }
 }

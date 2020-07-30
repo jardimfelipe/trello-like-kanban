@@ -31,18 +31,52 @@
     background-color: $bgColorHover;
     box-shadow: 0 0 0 0.2rem $shadowColor;
   }
-  &__icon path {
+  &.svg-icon {
     fill: $iconColor;
   }
   .svg-icon {
-    margin: auto !important;
+    fill: $iconColor;
   }
 }
 
 .btn {
   outline: none !important;
   cursor: pointer;
-  &-edit {
-    @include circularButton(transparent, #343a40, #343a40, #000000, #6c757d);
+  &__list {
+    @include circularButton(
+      transparent,
+      var(--app-edit-card),
+      var(--app-text),
+      var(--app-text),
+      var(--app-edit-card-lighten)
+    );
+  }
+  &__card {
+    @include circularButton(
+      transparent,
+      var(--app-secundary),
+      var(--app-text),
+      var(--app-text),
+      var(--app-secundary)
+    );
+  }
+  &__color-picker {
+    @include circularButton(
+      var(--app-secundary),
+      var(--app-secundary-darkest),
+      var(--app-text),
+      var(--app-text),
+      var(--app-secundary)
+    );
+  }
+  &__dashed {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 1px dashed var(--app-primary);
+    color: var(--app-text);
+    width: 100%;
   }
 }

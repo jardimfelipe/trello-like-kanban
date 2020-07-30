@@ -1,24 +1,39 @@
 :root {
-  --app-background: #ffffff;
   --app-primary: #264653;
   --app-primary-darkest: #1d353f;
   --app-secundary: #2a9d8f;
   --app-secundary-darkest: #258d80;
+  --app-edit-card: #adb5bd;
+  --app-edit-card-lighten: #d6dade;
+  --app-bar-logo: #ffffff;
   --app-accent: #e9c46a;
   --app-danger: #f4a261;
   --app-error: #e76f51;
   --app-card: #ececec;
+  --app-text: #000000;
 }
 
-[theme="grey"] {
-  --app-background: #343a40;
+[theme="grey-theme"] {
   --app-primary: #495057;
-  --app-primary-darkest: #383d42;
+  --app-primary-darkest: #41484e;
   --app-secundary: #6c757d;
+  --app-secundary-darkest: #616970;
+  --app-edit-card: #7f7f7f;
+  --app-edit-card-lighten: #979797;
+  --app-bar-logo: #ffffff;
+  --app-card: #909090;
+  --app-text: #000000;
 }
 
-[theme="funny"] {
-  --app-background: #f1e7d0;
+[theme="funny-theme"] {
+  --app-primary: #70d6ff;
+  --app-primary-darkest: #4bcbff;
+  --app-secundary: #ff70a6;
+  --app-secundary-darkest: #ff4b8f;
+  --app-edit-card: #ff9770;
+  --app-edit-card-lighten: #ff7c4b;
+  --app-card: #4bcbff;
+  --app-text: #ffffff;
 }
 
 [theme="dark"] {
