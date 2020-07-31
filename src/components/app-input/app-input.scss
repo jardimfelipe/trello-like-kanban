@@ -1,0 +1,11 @@
+input[type="text"] {
+  border: none;
+  border-bottom: 1px solid var(--app-text);
+  outline: none;
+  padding: 5px 10px;
+  background: transparent;
+  color: var(--app-text);
+  &::-webkit-input-placeholder {
+    color: var(--app-text);
+  }
+}

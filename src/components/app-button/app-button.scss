@@ -69,6 +69,24 @@
       var(--app-secundary)
     );
   }
+  &__save {
+    @include circularButton(
+      var(--app-save),
+      var(--app-save-darkest),
+      var(--app-text),
+      var(--app-text),
+      var(--app-save)
+    );
+  }
+  &__cancel {
+    @include circularButton(
+      transparent,
+      transparent,
+      var(--app-text),
+      var(--app-text),
+      transparent
+    );
+  }
   &__dashed {
     display: inline-flex;
     align-items: center;

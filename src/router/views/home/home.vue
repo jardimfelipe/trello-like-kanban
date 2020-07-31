@@ -3,28 +3,37 @@
 import MainLayout from '@/router/layouts/main.vue';
 import Board from '@/components/kanban-board/kanban-board.vue';
 
-// utils
-import { getSavedState } from '@/utils/localStorage';
+// module
+import { todoMethods, todoComputed } from '@/store/helpers/todo';
 
 export default {
   components: {
     MainLayout,
     Board,
   },
+  computed: {
+    ...todoComputed,
+  },
   created() {
-    this.getCurrentTheme();
+    this.fetchFramesList();
   },
   methods: {
-    getCurrentTheme() {
-      const currentTheme = getSavedState('app.theme');
-      document.documentElement.setAttribute('theme', currentTheme || 'main-theme');
-    },
+    ...todoMethods,
   },
 };
 </script>
 
 <template>
   <MainLayout>
-    <Board />
+    <Board
+      @create-frame="createNewFrame($event)"
+      @create-todo="createNewTodo($event)"
+      @open-frame-input="openFrameInput($event)"
+      @close-frame-input="closeFrameInput($event)"
+      @remove-todo="removeTodo($event)"
+      @swap-todo="swapTodo($event)"
+      @swap-frames="swapFrames($event)"
+      :board-frames="frames"
+    />
   </MainLayout>
 </template>

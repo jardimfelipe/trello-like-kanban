@@ -1,5 +1,5 @@
 ---
-to: src/store/helpers/<%= h.changeCase.kebab(name) %>/<%= h.changeCase.kebab(name) %>.js
+to: src/store/helpers/<%= h.changeCase.kebab(name) %>.js
 ---
 import { mapState, mapActions } from 'vuex';
 

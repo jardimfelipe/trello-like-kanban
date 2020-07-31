@@ -7,6 +7,10 @@ module.exports = {
     '.+\\.(css|scss|jpe?g|png|gif|webp|svg|mp4|webm|ogg|mp3|wav|flac|aac|woff2?|eot|ttf|otf)$':
       'jest-transform-stub',
   },
+  moduleNameMapper: {
+    '^@/(.*)$': '<rootDir>/src/$1',
+    '^.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$': 'jest-transform-stub',
+  },
   snapshotSerializers: ['jest-serializer-vue'],
   collectCoverageFrom: [
     'src/**/*.{js,vue}',

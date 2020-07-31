@@ -12,6 +12,7 @@
     "generateIcon": "vsvg -s ./src/assets/images/svg -t ./src/components/svgs"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "core-js": "^3.6.5",
     "cross-env": "^7.0.2",
     "eslint-config-airbnb": "^18.2.0",
@@ -19,9 +20,11 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "flush-promises": "^1.0.2",
     "hygen": "^6.0.4",
     "install-peerdeps": "^2.0.3",
     "prettier": "^2.0.5",
+    "qs": "^6.9.4",
     "sortablejs": "^1.10.2",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",

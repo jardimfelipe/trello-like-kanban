@@ -7,6 +7,9 @@
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
+  span:not(.drag-todo) {
+    display: flex;
+  }
   &__list {
     &--wrapper {
       width: 280px;
@@ -59,6 +62,16 @@
         margin-top: 10px;
         padding-bottom: 10px;
       }
+    }
+    &--frame-input {
+      form {
+        display: flex;
+        flex-direction: column;
+        padding: 0 30px;
+      }
+    }
+    &--input-buttons {
+      margin-top: 10px;
     }
     &--add-button {
       margin-top: 15px;

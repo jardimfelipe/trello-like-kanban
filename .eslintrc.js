@@ -16,6 +16,9 @@ module.exports = {
     'no-process-exit': 'off',
     'object-shorthand': 'off',
     'class-methods-use-this': 'off',
+    'no-shadow': 'off',
+    'object-curly-newline': 'off',
+    radix: 'off',
     'import/no-extraneous-dependencies': [
       'error',
       { devDependencies: true, optionalDependencies: false, peerDependencies: false },
