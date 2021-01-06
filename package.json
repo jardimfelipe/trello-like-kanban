@@ -12,7 +12,7 @@
     "generateIcon": "vsvg -s ./src/assets/images/svg -t ./src/components/svgs"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "cross-env": "^7.0.2",
     "eslint-config-airbnb": "^18.2.0",
